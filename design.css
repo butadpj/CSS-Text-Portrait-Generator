@@ -119,6 +119,7 @@ textarea {
 
 .button-5.disabled {
   filter: brightness(50%);
+  cursor: not-allowed;
 }
 
 .button-5.disabled:hover,

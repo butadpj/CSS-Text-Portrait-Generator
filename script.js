@@ -14,7 +14,7 @@ const repeatText = (text, count) => {
 const handleSubmit = (e) => {
   e.preventDefault();
 
-  const uploadedViewImage = document.querySelector('img');
+  const uploadedViewImage = uploadedView.querySelector('img');
   const textPortraitInputValue = textPortraitInput.value;
 
   if (uploadedViewImage && textPortraitInputValue) {
@@ -45,8 +45,10 @@ const handleSubmit = (e) => {
 }
 
 const handleTextInput = (e) => {
+  const uploadedViewImage = uploadedView.querySelector('img');
+
   console.log(e.target.value);
-  if (e.target.value) {
+  if (e.target.value && uploadedViewImage) {
     submitBtn.classList.remove('disabled');
     submitBtn.disabled = false;
     return
