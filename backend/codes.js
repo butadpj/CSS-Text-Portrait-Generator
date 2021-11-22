@@ -1,0 +1,36 @@
+export const paid_codes = [
+  'd41tgd',
+  'sanl9r',
+  'ukejor',
+  '38oeyz',
+  'umtugj',
+  'f6ycbh',
+  '8x4ijl',
+  'ttgfb6',
+  '3h1et5',
+  'dc95ki',
+  '7vrtsr',
+  'utpkaq',
+]
+
+export const premium_codes = [
+  '19c8nh',
+  'rmh06t',
+  'qieifl',
+  'eq9ok0',
+  'uilk8x',
+  'h10icm',
+  'objh4v',
+  '667bq6',
+  '3rkgdh',
+  'uiun4d',
+  'x713ja',
+  '4okluf',
+  'ybfg8c',
+  '5qlau3',
+  'ijilgl',
+  'j14yg7',
+  '4q9xtg',
+  '6vyvmm',
+]
+
